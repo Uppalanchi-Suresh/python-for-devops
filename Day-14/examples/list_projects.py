@@ -4,9 +4,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://veeramallaabhishek.atlassian.net/rest/api/3/project"
+url = "https://uppalanchi.atlassian.net/rest/api/3/project"
 
-API_TOKEN=""
+API_TOKEN="ATCTT3xFfGN0EW3DOHV6X0SlQuL52skL1PpZ1m8YT0Z58-bTAfiX4Slm21GsseQOnjlnKKqsP5JgOpoLXHS--IJfDZNLdM1PKDDu0K2DePXjj0R5cxZFWP6HkcHV1s_R3ryr-dibBaxhXzFd_NozkkSeBuj3U11BjbVGJJlp2H7NtBESqk86yaI=F96AF31D"
 
 auth = HTTPBasicAuth("", API_TOKEN)
 
